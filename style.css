@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -13,6 +19,64 @@ body {
     background-color: white;
     max-width: 450px;
     border-radius: 15px;
+}
+
+.container h1 {
+    text-align: center;
+    color: #293a59;
+}
+
+.container p {
+    text-align: center;
+    color: #b6bac6;
+}
+
+.infobox {
+    margin: 30px 50px;
+    background-color: #f8f9fe;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+button {
+    margin: 15px 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+button.payment-button {
+    background-color: #382ae1;
+    color: #f8f9fe;
+    border: transparent;
+    border-radius: 15px;
+    text-align: center;
+    height: 50px;
+
+}
+
+button.payment-button:hover {
+    background-color: #766cf1;
+    cursor: pointer;
+}
+
+button.cancel-button {
+    background-color: transparent;
+    border: none;
+}
+
+button.cancel-button:hover {
+    color: #596275;
+    cursor: pointer;
+
+}
+
+.payment {
+    display: flex;
+    flex-direction: column;
 }
 
 .attribution {
