@@ -10,7 +10,9 @@ body {
 }
 
 .container {
+    background-color: white;
     max-width: 450px;
+    border-radius: 15px;
 }
 
 .attribution {
