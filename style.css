@@ -33,7 +33,7 @@ body {
     color: #1a2751;
 }
 
-.container p {
+.container > p {
     text-align: center;
     color: #747895;
     font-size: 1.1rem;
@@ -52,10 +52,26 @@ body {
     border-radius: 10px;
     padding: 10px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-
 }
 
+.plan-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.plan-description,
+.plan-cost {
+    margin: 0;
+}
 
 
 button {
