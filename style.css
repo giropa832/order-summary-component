@@ -3,6 +3,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url("./images/pattern-background-desktop.svg"); 
+    background-repeat: no-repeat;
+    background-color: #e0e8ff;
 
 }
 
