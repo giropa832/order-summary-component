@@ -15,13 +15,14 @@ body {
 }
 
 .container img {
+    max-width: inherit;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;;
 }
 
 .container {
     background-color: white;
-    max-width: 450px;
+    max-width: 400px;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
