@@ -5,56 +5,74 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    min-height: 65vh;
+    display: grid;
+    place-content: center;
     background-image: url("./images/pattern-background-desktop.svg"); 
     background-repeat: no-repeat;
     background-color: #e0e8ff;
 
 }
 
+.container img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;;
+}
+
 .container {
     background-color: white;
     max-width: 450px;
-    border-radius: 15px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .container h1 {
+    margin-top: 40px;
     text-align: center;
-    color: #293a59;
+    color: #1a2751;
 }
 
 .container p {
     text-align: center;
-    color: #b6bac6;
+    color: #747895;
+    font-size: 1.1rem;
+    margin: 0px 50px;
+}
+
+.container h2 {
+    color: #1a2751;
+    font-size: medium;
+    font-weight: bold;
 }
 
 .infobox {
-    margin: 30px 50px;
+    margin: 10px 50px;
     background-color: #f8f9fe;
     border-radius: 10px;
-    padding: 20px;
+    padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
 }
+
+
 
 button {
     margin: 15px 50px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
+    
 }
 
 button.payment-button {
     background-color: #382ae1;
-    color: #f8f9fe;
+    color: #fafafa;
     border: transparent;
     border-radius: 15px;
     text-align: center;
     height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 
 }
 
@@ -66,10 +84,12 @@ button.payment-button:hover {
 button.cancel-button {
     background-color: transparent;
     border: none;
+    margin-bottom: 30px;
+    color: #646786;
 }
 
 button.cancel-button:hover {
-    color: #596275;
+    color: #1a2751;
     cursor: pointer;
 
 }
@@ -84,6 +104,6 @@ button.cancel-button:hover {
       text-align: center;
   }
 
-  .attribution a {
-      color: hsl(228, 45%, 44%);
-  }
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
